@@ -1,0 +1,1981 @@
+---------------------------------------------------------------
+[ 2020-07-28T22:50:07+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：85,938.781546s] [吞吐率：0.00req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.175442s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.057105s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.028378s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:09+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：3.882302s] [吞吐率：0.26req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.655026s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.061046s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.026306s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:11+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：4.911617s] [吞吐率：0.20req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.628617s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.071650s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.026356s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:13+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：7.223915s] [吞吐率：0.14req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.619079s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.069132s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.021101s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:13+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：5.181833s] [吞吐率：0.19req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.090567s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.057266s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.041386s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:15+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：4.396990s] [吞吐率：0.23req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.157927s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.051859s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.025327s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:15+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：3.161592s] [吞吐率：0.32req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.115146s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.067361s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.020449s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:17+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.328813s] [吞吐率：0.43req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000077s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.066842s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030846s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.019329s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:18+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.606347s] [吞吐率：0.62req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.089143s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.042947s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017730s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:20+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.413248s] [吞吐率：0.41req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000501s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.079103s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.037563s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.022343s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:22+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.511922s] [吞吐率：0.40req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.072253s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.033377s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.018523s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:24+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.024674s] [吞吐率：0.49req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065643s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030831s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.016280s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:25+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.779850s] [吞吐率：0.56req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.060880s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.048172s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.020303s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:28+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.968197s] [吞吐率：0.51req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.078969s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030770s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017329s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:29+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.693079s] [吞吐率：0.59req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.067757s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.031394s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015805s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:31+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.675976s] [吞吐率：0.60req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.057925s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.029275s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015277s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:33+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.703338s] [吞吐率：0.59req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.062687s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.029923s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015798s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:35+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.572243s] [吞吐率：0.64req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.057807s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.031147s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.018651s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:38+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.911774s] [吞吐率：0.52req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.063432s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030723s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.014149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:39+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.731343s] [吞吐率：0.58req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.070821s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.034815s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.014048s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:41+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.742123s] [吞吐率：0.57req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065344s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.031588s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.019291s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:44+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.132489s] [吞吐率：0.47req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.111427s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.047053s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.024458s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:45+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.710402s] [吞吐率：0.58req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.059106s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.027807s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.016008s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:48+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.965093s] [吞吐率：0.51req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.068727s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032185s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.016098s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:49+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：1.684592s] [吞吐率：0.59req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.067788s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030719s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017697s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:50:52+08:00 ] 172.17.0.1 GET gylc.com/OviqxRwQMe.php/handle/checkWarn
+[运行时间：2.454531s] [吞吐率：0.41req/s] [内存消耗：3,900.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.114068s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'handle',
+    2 => 'checkWarn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/OviqxRwQMe.php/general/config?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gylc.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.056310s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Handle->checkWarn[ /www/wwwroot/gylc.com/application/admin/controller/Handle.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015129s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:09+08:00 ] 172.17.0.1 GET gylc.com/mobile/task
+[运行时间：1.666810s] [吞吐率：0.60req/s] [内存消耗：3,619.77kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.056634s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://gylc.com/mobile/sp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.035419s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->task[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/task.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'isCheck',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:21+08:00 ] 172.17.0.1 POST gylc.com/mobile/reward
+[运行时间：1.891530s] [吞吐率：0.53req/s] [内存消耗：3,653.59kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.077620s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'reward',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'origin' => 'http://gylc.com',
+  'content-length' => '4',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://gylc.com/mobile/sp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.036723s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->reward[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:30+08:00 ] 172.17.0.1 GET gylc.com/mobile/index.html
+[运行时间：3.281868s] [吞吐率：0.30req/s] [内存消耗：3,839.03kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065688s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/box.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032395s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->index[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'item',
+  4 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:34+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：2.882583s] [吞吐率：0.35req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.074566s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.038511s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:34+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：3.054799s] [吞吐率：0.33req/s] [内存消耗：2,199.70kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.085899s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.046021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:37+08:00 ] 172.17.0.1 GET gylc.com/user/person.html
+[运行时间：3.252254s] [吞吐率：0.31req/s] [内存消耗：3,751.71kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.063454s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'user',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.033667s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\User->person[ /www/wwwroot/gylc.com/application/mobile/controller/User.php ]
+[ info ] [ VIEW ] ../template/user/person.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'dsfh',
+  4 => 'dsbj',
+  5 => 'lcsy',
+  6 => 'yqsy',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:40+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：2.749947s] [吞吐率：0.36req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065039s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032294s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:41+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：2.405058s] [吞吐率：0.42req/s] [内存消耗：2,199.70kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.072133s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595551006586%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595552806586%7D; __51cke__=; __51laig__=109; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.033351s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:47+08:00 ] 172.17.0.1 GET gylc.com/about/index.html
+[运行时间：2.993482s] [吞吐率：0.33req/s] [内存消耗：3,609.52kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.063370s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595949941856%7D; __51cke__=; __51laig__=110; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/user/person.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.031023s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\About->index[ /www/wwwroot/gylc.com/application/mobile/controller/About.php ]
+[ info ] [ VIEW ] ../template/about/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:50+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：2.865198s] [吞吐率：0.35req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000077s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.076439s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595949941856%7D; __51cke__=; __51laig__=110; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.036690s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:52+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：2.937097s] [吞吐率：0.34req/s] [内存消耗：2,291.30kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.073565s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201595949941856%7D; __51cke__=; __51laig__=110; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032761s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:54+08:00 ] 172.17.0.1 GET gylc.com/mobile/box.html
+[运行时间：3.157026s] [吞吐率：0.32req/s] [内存消耗：3,664.08kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065501s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'box',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/about/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030536s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->box[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/box.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:58+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：3.510618s] [吞吐率：0.28req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.093514s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.044817s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:58+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：3.443910s] [吞吐率：0.29req/s] [内存消耗：2,199.70kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.089687s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.042383s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T22:55:58+08:00 ] 172.17.0.1 GET gylc.com/mobile/sp
+[运行时间：4.027835s] [吞吐率：0.25req/s] [内存消耗：3,652.56kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.091576s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'sp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/box.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.042802s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->sp[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/sp.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'islogin',
+  4 => 'jscs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:25+08:00 ] 172.17.0.1 GET gylc.com/mobile/index.html
+[运行时间：2.925676s] [吞吐率：0.34req/s] [内存消耗：3,675.95kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.060262s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/box.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030460s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->index[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'item',
+  4 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:29+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：3.385725s] [吞吐率：0.30req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.086068s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.049531s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:29+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：3.227134s] [吞吐率：0.31req/s] [内存消耗：2,291.30kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.104874s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.041754s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:31+08:00 ] 172.17.0.1 GET gylc.com/mobile/box.html
+[运行时间：3.608641s] [吞吐率：0.28req/s] [内存消耗：3,664.08kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.090766s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'box',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.040577s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->box[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/box.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:34+08:00 ] 172.17.0.1 GET gylc.com/Public/mobile/js/jquery.min.map
+[运行时间：2.652520s] [吞吐率：0.38req/s] [内存消耗：2,200.46kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.069417s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'Public',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.map',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032671s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:34+08:00 ] 172.17.0.1 GET gylc.com/favicon.ico
+[运行时间：2.603495s] [吞吐率：0.38req/s] [内存消耗：2,199.70kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.067588s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.031389s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-28T23:07:34+08:00 ] 172.17.0.1 GET gylc.com/mobile/sp
+[运行时间：3.024844s] [吞吐率：0.33req/s] [内存消耗：3,652.56kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065019s ]
+[ info ] [ LANG ] /www/wwwroot/gylc.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'mobile',
+    2 => 'sp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=09pr62dd7pm8531eerqi34tj67; keeplogin=1%7C86400%7C1595519332%7C244f99044e9f395b7c08028dc1a1b0e0; __tins__20172683=%7B%22sid%22%3A%201595948141856%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201595949949320%7D; __51cke__=; __51laig__=111; uid=2; token=7dcb5f43-d7c2-4695-a734-c384787352a5',
+  'connection' => 'keep-alive',
+  'referer' => 'http://gylc.com/mobile/box.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'gylc.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.032127s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Mobile->sp[ /www/wwwroot/gylc.com/application/mobile/controller/Mobile.php ]
+[ info ] [ VIEW ] ../template/mobile/sp.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'islogin',
+  4 => 'jscs',
+) ]
+[ info ] [ LOG ] INIT File

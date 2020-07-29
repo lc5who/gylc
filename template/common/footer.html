@@ -1,0 +1,108 @@
+<if condition="$user eq 'NULL'">
+<div class="header-nbsp"></div>
+<div class="footer_nav">
+
+    <script type="text/javascript">
+        $(function () {
+            var nav = "[nav]";
+            if (nav == "box") {
+                $(".footer_nav span").eq(0).addClass("active");
+                $(".footer_nav img").eq(0).attr("src", "/Public/mobile/img/home_blue.png");
+                $(".footer_nav img").eq(2).addClass("min");
+            }
+            if (nav == "indexnew") {
+                $(".footer_nav img").eq(2).addClass("min");
+            }
+            if (nav == "about") {
+                $(".footer_nav span").eq(1).addClass("active");
+                $(".footer_nav img").eq(1).attr("src", "/Public/mobile/img/invest_blue.png");
+                $(".footer_nav img").eq(2).addClass("min");
+            }
+            if (nav == "user") {
+                $(".footer_nav span").eq(3).addClass("active");
+                $(".footer_nav img").eq(3).attr("src", "/Public/mobile/img/user_blue.png");
+                $(".footer_nav img").eq(2).addClass("min");
+            }
+            if (nav == "index") {
+                $(".footer_nav span").eq(1).addClass("active");
+                $(".footer_nav img").eq(1).attr("src", "/Public/mobile/img/about_blue.png");
+            }
+
+        })
+    </script>
+    <a href="/mobile/box.html">
+        <img src="/Public/mobile/img/home.png">
+        <span>首页</span>
+    </a>
+    <a href="/mobile/qiandaonew.html">
+        <img src="/Public/mobile/img/invest.png">
+        <span class="">果园</span>
+    </a>
+    <a href="">
+        <img src="/Public/index_files/logo.png">
+        <span class=""></span>
+    </a>
+    <a href="/user/person.html">
+        <img src="/Public/mobile/img/user.png">
+        <span>会员中心</span>
+    </a>
+    <a href="{$site.kefu}">
+        <img src="/Public/mobile/img/kefu.png">
+        <span class="">在线帮助</span>
+    </a>
+
+
+
+</div>
+</if>
+<if condition="$user neq 'NULL'">
+<div class="header-nbsp"></div>
+<div class="footer_nav">
+
+    <a href="/mobile/box.html">
+        <img src="/Public/mobile/img/home.png">
+        <span>首页</span>
+    </a>
+    <a href="/mobile/index.html">
+        <img src="/Public/mobile/img/touzhi2.png">
+        <span class="">优选项目</span>
+    </a>
+    <a href="/user/person.html">
+        <img src="/Public/mobile/img/888.png">
+        <span>会员中心</span>
+    </a>
+    <a href="/about/index.html">
+        <img src="/Public/mobile/img/about.png">
+        <span class="">新手指引</span>
+    </a>
+    <a href="{$site.kefu}">
+        <img src="/Public/mobile/img/kefu.png">
+        <span class="">在线帮助</span>
+    </a>
+    <script type="text/javascript">
+        $(function () {
+            var nav = "[nav]";
+            if (nav == "box") {
+                $(".footer_nav span").eq(0).addClass("active");
+                $(".footer_nav img").eq(0).attr("src", "/Public/mobile/img/home_blue.png");
+            }
+            if (nav == "index") {
+                $(".footer_nav span").eq(1).addClass("active");
+                $(".footer_nav img").eq(1).attr("src", "/Public/mobile/img/touzhi1.png");
+            }
+            if (nav == "user") {
+                $(".footer_nav span").eq(2).addClass("active");
+                $(".footer_nav img").eq(2).attr("src", "/Public/mobile/img/8888.png");
+            }
+            if (nav == "about") {
+                $(".footer_nav span").eq(3).addClass("active");
+                $(".footer_nav img").eq(3).attr("src", "/Public/mobile/img/about_blue.png");
+            }
+        })
+    </script>
+
+
+
+
+</div>
+</if>
