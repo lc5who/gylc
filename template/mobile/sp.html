@@ -284,42 +284,18 @@
 	</div>
 </div>
 <h3 class="title">果园欢乐</h3>
-  <div class="col-xs-6  " onclick="gotoUrl('/mobile/box/id/1.html')">
-	<div class="panel panel-default  ">                       
+<volist name="gyhl" id="vo">
+<div class="col-xs-6  " onclick="gotoUrl('{$vo.url}')">
+	<div class="panel panel-default  ">
 		<div class="panel-body  ">
-			<image src="/sp/i/upload/4a72b6965e71d712b8381670c9b9c933.jpg" width="100%" height="100%">
+			<image src="{$vo.image}" width="100%" height="100%">
 		</div>
 		<!-- /.panel-body -->
 	</div>
 	<!-- /.panel -->
 </div>
- <div class="col-xs-6  " onclick="gotoUrl('/mobile/box/id/1.html')">
-	<div class="panel panel-default  ">                       
-		<div class="panel-body  ">
-			<image src="/sp/i/upload/afa9668455a1d9578ee15c592a946f3b.png" width="100%" height="100%">
-		</div>
-		<!-- /.panel-body -->
-	</div>
-	<!-- /.panel -->
-</div>
- <div class="col-xs-6  " onclick="gotoUrl('/mobile/box/id/1.html')">
-	<div class="panel panel-default  ">                       
-		<div class="panel-body  ">
-			<image src="/sp/i/upload/86eb3c1d9af7721b7305793eaf08e306.png" width="100%" height="100%">
-		</div>
-		<!-- /.panel-body -->
-	</div>
-	<!-- /.panel -->
-</div>
- <div class="col-xs-6  " onclick="gotoUrl('/mobile/box/id/1.html')">
-	<div class="panel panel-default  ">                       
-		<div class="panel-body  ">
-			<image src="/sp/i/upload/db3a8182fa901497de6b9e69eb160577.png" width="100%" height="100%">
-		</div>
-		<!-- /.panel-body -->
-	</div>
-	<!-- /.panel -->
-</div>
+</volist>
+  
  
  <div class="clearfix"></div>
  <h3 class="title"></h3>

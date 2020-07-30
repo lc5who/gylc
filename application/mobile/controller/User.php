@@ -15,7 +15,7 @@ use app\common\model\User as ModelUser;
 class User extends Frontend
 {
 
-    protected $noNeedLogin = ['login','register'];
+    protected $noNeedLogin = ['login','reg'];
     protected $noNeedRight = '*';
     protected $layout = '';
     public function _initialize()
@@ -40,6 +40,91 @@ class User extends Frontend
             Cookie::delete('uid');
             Cookie::delete('token');
         });
+    }
+    
+    public function details(){
+        $id=input('id','');
+        $invest=Db::name('invest')->where('id',$id)->find();
+        $list=Db::name('invest_list')->where('iid',$id)->select();
+        return $this->view->fetch('', compact('invest','list'));
+
+    }
+    public function set_address(){
+
+       $data=Db::name('user_address')->where('username',$this->auth->username)
+       ->find();
+
+       if($this->request->isPost()){
+        $province=input('province','');
+        $city=input('city','');
+        $area=input('area','');
+        $addr=input('addr','');
+        if($data){
+            msg('您已绑定过收获地址');
+        }
+        Db::name('user_address')->insert([
+            'username'=>$this->auth->username,
+            'address'=>$province.' '.$city.' '.$area.' '.$addr
+        ]);
+        msg('修改成功');
+       }
+        return $this->view->fetch('',compact('data'));
+    }
+    public function contract(){
+        $id=input('id','');
+        $invest=Db::name('invest')->where('id',$id)->find();
+        $item=Db::name('item')->where('id',$invest['pid'])->find();
+        return $this->view->fetch('',compact('invest','item'));
+    }
+    public function reg(){
+        $top=$this->request->param('top','');
+        if($this->request->isPost()){
+            $site=config('site');
+            $phone = input('phone','');
+            $pwd = input('pwd','');
+            $pwd2 = input('pwd2','');
+            $top = input('top','');
+            $code = input('code','');
+            $smscode = input('smscode','');
+            $imel=input('imel','');
+            if($code!=session('code')){
+                msg('您输入的验证码不正确');
+            }
+            // if ($smscode != session('smscode')) {
+            //     msg('您输入的短信验证码不正确');
+            // }
+            if($pwd!=$pwd2){
+                msg('两次输入的密码不一致');
+            }
+            $res=Db::name('user')->where('username',$phone)->find();
+            if($res){
+                msg('该用户名已注册');
+            }
+            $tid=0;
+            if($top){
+               $topuser=Db::name('user')->where('username',$top)->find();
+               if($topuser){
+                   $tid=$topuser['id'];
+               }
+            }
+            $this->auth->register($phone,$pwd,$phone.'@qq.com',$phone,[
+                'top'=>$tid,
+                'realpass'=>$pwd,
+                'paypassword'=>$pwd,
+            ]);
+            ModelUser::money($site['zczsje'],$this->auth->id,'会员注册赠送'. $site['zczsje'].'元');
+            ModelUser::guoshi($site['zczsgs'],$this->auth->id,'');
+            if($tid!=0){
+                ModelUser::money($site['yqzsje'], $tid, '邀请会员注册赠送' . $site['yqzsje'] . '元');
+                ModelUser::guoshi($site['yazsgs'], $tid, '');
+
+            }
+            msg('注册成功',2,url('user/person'));
+
+        }else{
+            return $this->view->fetch('',compact('top'));
+        }
+        
     }
     public function prize(){
         $data=$this->request->param();

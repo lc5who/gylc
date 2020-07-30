@@ -237,31 +237,32 @@
 			}
 		}
 
-		<if condition="$user.id gt 0">
-			function gift(data) {
 
+		function gift(data) {
+			<if condition="$user eq ''">
+				login()
+				return
+			</if>
+			var data = JSON.parse(data);
 
-				var data=JSON.parse(data);
-
-		layer.confirm('确定消耗'+ data.credit +'个果实兑换'+data.name+'吗？',{"title":""}, function(index){
+			layer.confirm('确定消耗' + data.credit + '个果实兑换' + data.name + '吗？', { "title": "" }, function (index) {
 				layer.close(index);
-			$.post("{$Think.const.APPHOST}/user/getgift",{'id':data.id },function(rs){
-				if(rs.code==1)
-				{
-				layer.alert(rs.msg, { "title": "" }, function (index) {
-					layer.close(index);
+				$.post("{$Think.const.APPHOST}/user/getgift", { 'id': data.id }, function (rs) {
+					if (rs.code == 1) {
+						layer.alert(rs.msg, { "title": "" }, function (index) {
+							layer.close(index);
+						});
+					} else {
+						layer.alert(rs.msg, { "title": "" }, function (index) {
+							layer.close(index);
+						});
+					}
 				});
-				}else{
-				layer.alert(rs.msg, { "title": "" }, function (index) {
-					layer.close(index);
-				});
-				}
 			});
-		});
 
-}
+		}
 
-	</if>
+
 
 
 

@@ -42,4 +42,11 @@ return array (
   'doprize' => '200',
   'kefu' => 'https://www.baidu.com',
   'qdmoney' => '2',
+  'qdguoshi' => '3',
+  'yqzsje' => '2',
+  'yazsgs' => '10',
+  'zczsje' => '2',
+  'zczsgs' => '10',
+  'company' => '上海阿里巴巴集团',
+  'contract' => '',
 );

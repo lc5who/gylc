@@ -1,4 +1,5 @@
-<if condition="$user eq 'NULL'">
+
+<if condition="$user eq ''">
 <div class="header-nbsp"></div>
 <div class="footer_nav">
 
@@ -54,8 +55,7 @@
 
 
 </div>
-</if>
-<if condition="$user neq 'NULL'">
+<else/>
 <div class="header-nbsp"></div>
 <div class="footer_nav">
 

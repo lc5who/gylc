@@ -1,4 +1,18 @@
 <?php
+function getInvestMoney($id)
+{
+    $invest=db('invest_list')->where('iid',$id)
+    ->where('pay1','neq',0)
+    ->select();
+    // $invest = getData('invest_list', 'all', 'iid = \'' . $id . '\' AND pay1 <> 0');
+    $money = 0;
+
+    foreach ($invest as $i) {
+        $money += $i['money1'];
+    }
+
+    return $money;
+}
 function authCheck($name,$idcard){
     return true;
 }

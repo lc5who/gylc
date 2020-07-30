@@ -1,0 +1,81 @@
+<include file="common/header" nav="合同" />
+<div class="mobile">
+    <div class="othertop">
+        <a class="goback" href="javascript:history.back();"><img src="/Public/mobile/img/goback.png" /></a>
+        <div class="othertop-font">合同书</div>
+    </div>
+    <div class="header-nbsp"></div>
+    <!-- 合同 -->
+    <div class="contract_box">
+        <h1 class="con_name">{$site.company}投资合同书</h1>
+        <p class="code">合同编号：{:date('ymd',$invest['createtime'])}{:sprintf("%05d", $invest['id'])}</p>
+        <p><label>甲方（投资方）</label>：{$user.idname}</p>
+        <p><label>乙方（管理方）</label>：{$site.company}</p>
+        <p><label>丙方（担保方）</label>：{$item['guarantee']}</p>
+        <p>甲乙丙双方经友好协商，本着平等自愿、诚实信用的原则，就甲方使用乙方提供的本网站所有服务的</p>
+        <p><label>有关事项达成如下协议：</label></p>
+        <p>一、<label>理财投资明细</label></p>
+        <table class="tablec">
+            <tr>
+                <td>产品名称</td>
+                <td>{$invest.title}</td>
+            </tr>
+            <tr>
+                <td>投资人姓名</td>
+                <td>{$user.idname}</td>
+            </tr>
+            <tr>
+                <td>投资人身份证</td>
+                <td>{$user.idcard}</td>
+            </tr>
+            <tr>
+                <td>投入本金数额<br>（下称"甲方投资本金"）</td>
+                <td>{$invest.money}元</td>
+            </tr>
+            <tr>
+                <td>协议期（天）</td>
+                <td>{$invest.day}天</td>
+            </tr>
+            <tr>
+                <td>预期收益率</td>
+                <td>{$invest.rate}%</td>
+            </tr>
+            <tr>
+                <td>起息日</td>
+                <td>{:date('Y-m-d',$invest['createtime'])}</td>
+            </tr>
+            <tr>
+                <td>到期日</td>
+                <td>{:date('Y-m-d',$invest['createtime']+60*60*24*$invest['day'])}</td>
+            </tr>
+            <tr>
+                <td>应收本息（元）</td>
+                <td>{$invest['money']+$invest['money']*$item['day']*$item['rate']/100}元</td>
+            </tr>
+            <tr>
+                <td>还款方式</td>
+                <td>{$item.typedata}</td>
+            </tr>
+        </table>
+        {:htmlspecialchars_decode($site['contract'])}
+        <div class="signature">
+            <div class="Party">
+                <p>甲方：{$user.idname}</p>
+                <span>{:date('Y年m月d日',$invest['createtime'])}</span>
+            </div>
+            <div class="Party">
+                <p>乙方：{$site.company}</p>
+                <span>{:date('Y年m月d日',$invest['createtime'])}</span>
+            </div>
+            <img src="__PUBLIC__/uploads/contract.png?k={:rand(1,99999)}">
+        </div>
+        <div class="Party"
+            style="background:  url('__PUBLIC__/uploads/wechat.png?k={:rand(1,99999)}') no-repeat top left 36px ;background-size:100px 100px;padding:25px 0">
+            <p>丙方：{$item.guarantee}</p>
+            <span>{:date('Y年m月d日',$invest['createtime'])}</span>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

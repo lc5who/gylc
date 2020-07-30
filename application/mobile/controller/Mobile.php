@@ -12,7 +12,22 @@ class Mobile extends Frontend
     protected $noNeedLogin = '*';
     protected $noNeedRight = '*';
     protected $layout = '';
-
+    public function giftdetail()
+    {
+        $id=input('id','1');
+        $data=Db::name('gift')->where('id',$id)->find();
+        if(!$data){
+            msg('不存在的礼物', 2, url('mobile/box1'));
+        }
+        if($this->request->isPost()){
+           if(!$this->auth->isLogin()) {
+               msg('请先登陆',2,url('user/login'));
+           }
+           
+           
+        }
+        return $this->view->fetch('',compact('data'));
+    }
     public function calculator(){
         return $this->view->fetch();
     }
@@ -211,8 +226,9 @@ class Mobile extends Frontend
             $jscs=Db::name('jiaoshui')->where('username',$this->auth->username)
             ->count();
         }
-
-        return $this->view->fetch('',compact('islogin','jscs'));
+        $gyhl=Db::name('banner')->where('category_id',18)->order('weigh desc')
+        ->select();
+        return $this->view->fetch('',compact('islogin','jscs','gyhl'));
     }
     public function giftlist(){
         $data=Db::name('gift')->order('weigh desc')->select();

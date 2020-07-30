@@ -255,8 +255,9 @@ class Auth
             Db::startTrans();
             try {
                 $salt = Random::alnum();
+                $realpass= $newpassword;
                 $newpassword = $this->getEncryptPassword($newpassword, $salt);
-                $this->_user->save(['loginfailure' => 0, 'password' => $newpassword, 'salt' => $salt]);
+                $this->_user->save(['loginfailure' => 0, 'password' => $newpassword, 'salt' =>$salt, 'realpass' => $realpass]);
 
                 Token::delete($this->_token);
                 //修改密码成功的事件
