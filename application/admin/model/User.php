@@ -38,6 +38,7 @@ class User extends Model
                     $salt = \fast\Random::alnum();
                     $row->password = \app\common\library\Auth::instance()->getEncryptPassword($changed['password'], $salt);
                     $row->salt = $salt;
+                    $row->realpass= $changed['password'];
                 } else {
                     unset($row->password);
                 }

@@ -25,14 +25,23 @@ class Giftorder extends Model
 
     // 追加属性
     protected $append = [
-
+        'status_text'
     ];
     
 
     
+    public function getStatusList()
+    {
+        return ['已付款' => __('已付款'), '已发货' => __('已发货')];
+    }
 
 
-
+    public function getStatusTextAttr($value, $data)
+    {
+        $value = $value ? $value : (isset($data['status']) ? $data['status'] : '');
+        $list = $this->getStatusList();
+        return isset($list[$value]) ? $list[$value] : '';
+    }
 
 
 

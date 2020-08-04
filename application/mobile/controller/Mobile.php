@@ -15,18 +15,35 @@ class Mobile extends Frontend
     public function giftdetail()
     {
         $id=input('id','1');
-        $data=Db::name('gift')->where('id',$id)->find();
-        if(!$data){
+        $action=input('action','');
+        $goods=Db::name('gift')->where('id',$id)->find();
+        if(!$goods){
             msg('不存在的礼物', 2, url('mobile/box1'));
         }
-        if($this->request->isPost()){
+        if($action=='do'){
            if(!$this->auth->isLogin()) {
                msg('请先登陆',2,url('user/login'));
            }
-           
-           
+           if($this->auth->guoshi<$goods['price']){
+               msg('果实不足',2,url('mobile/box1'));
+           }  
+           $dhcs=Db::name('giftorder')->where('username',$this->auth->username)
+           ->where('gid',$goods['id'])->count();
+           if($dhcs>=$goods['maxchange']){
+                msg('已达到最大兑换次数', 2, url('mobile/box1'));
+           }
+           UserModel::guoshi($goods['price'],$this->auth->id,'兑换商品'.$goods['title'].'消耗果实'.$goods['price']);
+           Db::name('giftorder')->insert(
+               [
+                   'username'=>$this->auth->username,
+                   'gid'=>$goods['id'],
+                   'title'=>$goods['title'],
+                   'createtime'=>time()
+               ]
+           );
+           msg('兑换成功',2,url('user/person'));
         }
-        return $this->view->fetch('',compact('data'));
+        return $this->view->fetch('',compact('goods'));
     }
     public function calculator(){
         return $this->view->fetch();

@@ -28,7 +28,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'username', title: __('Username')},
                         {field: 'gid', title: __('Gid')},
                         {field: 'title', title: __('Title')},
-                        {field: 'status', title: __('Status'), formatter: Table.api.formatter.status},
+                        {field: 'addr', title: __('Addr')},
+                        {field: 'status', title: __('Status'), searchList: {"已付款":__('已付款'),"已发货":__('已发货')}, formatter: Table.api.formatter.status},
+                        {field: 'memo', title: __('Memo')},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

@@ -64,6 +64,10 @@ class User extends Frontend
         }
         Db::name('user_address')->insert([
             'username'=>$this->auth->username,
+            'province'=>$province,
+            'city'=>$city,
+            'area'=>$area,
+            'addr' => $addr,
             'address'=>$province.' '.$city.' '.$area.' '.$addr
         ]);
         msg('修改成功');

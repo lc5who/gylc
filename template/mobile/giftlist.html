@@ -244,6 +244,9 @@
 				return
 			</if>
 			var data = JSON.parse(data);
+			top.location.href="/mobile/giftdetail/id/"+ data.id
+			return
+			
 
 			layer.confirm('确定消耗' + data.credit + '个果实兑换' + data.name + '吗？', { "title": "" }, function (index) {
 				layer.close(index);

@@ -58,19 +58,19 @@
             <form action="/user/set_address" method="post" id="ifr">
                 <div class="input_text cert">
                     <label>省份/直辖市</label>
-                    <input type="text" name="province" id="province" placeholder="请输入省份/直辖市如:北京市">
+                    <input type="text" name="province" id="province" placeholder="请输入省份/直辖市如:北京市" value="{$data.province}">
                 </div>
                 <div class="input_text cert">
                     <label>市</label>
-                    <input type="text" name="city" id="city" placeholder="请输入市如:北京市">
+                    <input type="text" name="city" id="city" placeholder="请输入市如:北京市" value="{$data.city}">
                 </div>
                 <div class="input_text cert">
                     <label>区/县</label>
-                    <input type="text" name="area" id="area" placeholder="请输入区县如:东城区">
+                    <input type="text" name="area" id="area" placeholder="请输入区县如:东城区" value="{$data.area}">
                 </div>
                 <div class="input_text cert">
                     <label>街道地址</label>
-                    <input type="text" name="addr" id="addr" placeholder="请输入详细街道地址">
+                    <input type="text" name="addr" id="addr" placeholder="请输入详细街道地址" value="{$data.addr}">
                 </div>
                 <input type="submit" class="input_btn" value="完成修改" />
             </form>

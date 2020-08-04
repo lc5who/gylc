@@ -2,7 +2,9 @@
 
 namespace app\admin\controller\user;
 
+
 use app\common\controller\Backend;
+use app\common\library\Auth as LibraryAuth;
 
 /**
  * 会员管理
@@ -70,6 +72,24 @@ class User extends Backend
             $this->error(__('No Results were found'));
         $this->view->assign('groupList', build_select('row[group_id]', \app\admin\model\UserGroup::column('id,name'), $row['group_id'], ['class' => 'form-control selectpicker']));
         return parent::edit($ids);
+    }
+
+    public function add()
+    {
+        if ($this->request->isPost()) {
+            $params = $this->request->post("row/a");
+            if ($params) {
+                $params = $this->preExcludeFields($params);
+                $auth = new LibraryAuth;
+                if ($auth->register($params['username'], $params['password'],'','',['realpass'=> $params['password']])) {
+                    $this->success();
+                } else {
+                    $this->error($auth->getError());
+                }
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        return $this->view->fetch();
     }
 
 }
