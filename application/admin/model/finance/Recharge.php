@@ -37,7 +37,7 @@ class Recharge extends Model
         $uid=$recharge['user_id'];
 
             User::money($recharge['money'],$uid,'账户充值');
-            $recharge->save(['status'=>1]);
+            $recharge->save(['status'=>1,'warn'=>1]);
             return true;
         }catch (Exception $e){
             return  false;

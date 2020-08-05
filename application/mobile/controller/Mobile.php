@@ -122,13 +122,13 @@ class Mobile extends Frontend
                 msg($vali, 2, url('mobile/index'));
             }
             if($data['pwd']!=$this->auth->paypassword){
-                msg('交易密码错误');
+                msg('交易密码错误',2,url('mobile/form','id='.$id));
             }
             if($data['money']<$item['min']){
-                msg('最少投资金额为'. $item['min']);
+                msg('最少投资金额为'. $item['min'], 2, url('mobile/form', 'id=' . $id));
             }
             if ($data['money'] > $item['max']) {
-                msg('最大投资金额为' . $item['min']);
+                msg('最大投资金额为' . $item['min'], 2, url('mobile/form', 'id=' . $id));
             }
             if ($data['money'] > $this->auth->money) {
                 msg('用户余额不足,请充值',2,url('user/recharge'));
@@ -136,7 +136,7 @@ class Mobile extends Frontend
             $tzcount= Db::name('invest')->where('uid',$this->auth->id)
             ->where('pid',$item['id'])->count();
             if($tzcount == $item['num']){
-                msg('投资次数已达'.$item['num'].'次');
+                msg('投资次数已达'.$item['num'].'次',2,url('mobile/index'));
             }
             $bool=true;
             Db::startTrans();
@@ -155,21 +155,42 @@ class Mobile extends Frontend
                 ];
                 $iid=Db::name('invest')->insertGetId($invest);
                 $investlist=[];
-                for ($i=0; $i < $item['day']; $i++) {
-                    $investlist[]=[
-                        'uid'=>$this->auth->id,
-                        'iid'=>$iid,
-                        'num'=>$item['day'],
-                        'title'=>$item['title'],
-                        'money1'=>$item['rate']*$data['money']/100,
-                        'money2'=>0,
-                        'plantime'=>time()+($i+1)*60*60*24,
-                        'handletime'=>0,
-                        'pay1'=>$item['rate']*$data['money']/100,
-                        'pay2'=>'0.00',
-                        'status'=>0
-                    ];
+                if($item['typedata']== '每小时返息 到期还本'){
+                    for ($i = 0; $i < $item['day']*24; $i++) {
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => $i + 1,
+                            'title' => $item['title'],
+                            'money1' => $item['rate'] * $data['money'] / 100,
+                            'money2' => 0,
+                            'plantime' => time() + ($i + 1) * 60 * 60,
+                            'handletime' => 0,
+                            'pay1' => $item['rate'] * $data['money'] / 100,
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    }
+
                 }
+                if ($item['typedata'] == '每日返息 到期还本') {
+                    for ($i = 0; $i < $item['day']; $i++) {
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => $i + 1,
+                            'title' => $item['title'],
+                            'money1' => $item['rate'] * $data['money'] / 100,
+                            'money2' => 0,
+                            'plantime' => time() + ($i + 1) * 60 * 60 * 24,
+                            'handletime' => 0,
+                            'pay1' => $item['rate'] * $data['money'] / 100,
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    }
+                }
+                
 
                 $investlist[count($investlist)-1]['money2']=$data['money'];
 
