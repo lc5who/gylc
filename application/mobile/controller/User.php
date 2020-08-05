@@ -15,7 +15,7 @@ use app\common\model\User as ModelUser;
 class User extends Frontend
 {
 
-    protected $noNeedLogin = ['login','reg'];
+    protected $noNeedLogin = ['login','reg','forget'];
     protected $noNeedRight = '*';
     protected $layout = '';
     public function _initialize()
@@ -41,7 +41,39 @@ class User extends Frontend
             Cookie::delete('token');
         });
     }
-    
+    public function forget(){
+        if($this->request->isPost()){
+            $phone = input('phone', '');
+            $pwd = input('pwd', '');
+            $pwd2 = input('pwd2', '');
+            $code = input('code', '');
+            $smscode = input('smscode', '');
+            if ($code != session('code')) {
+                msg('您输入的验证码不正确');
+            }
+            if ($pwd != $pwd2) {
+                msg('两次输入的密码不一致');
+            }
+            // if ($smscode != session('smscode')) {
+            //     msg('您输入的短信验证码不正确');
+            // }
+            
+            $user=Db::name('user')->where('username',$phone)->find();
+            if(!$user){
+                msg('不存在的用户名');
+            }
+            
+            $this->auth->direct($user['id']);
+            $this->auth->changepwd($pwd,'',true);
+            msg('修改登陆密码成功',2,url('user/person'));
+            // Db::name('user')->where('username', $phone)->update([
+            //     ''
+            // ]);
+        }else{
+            return $this->view->fetch();
+
+        }
+    }
     public function details(){
         $id=input('id','');
         $invest=Db::name('invest')->where('id',$id)->find();
