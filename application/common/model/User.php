@@ -2,6 +2,7 @@
 
 namespace app\common\model;
 
+use think\Db;
 use think\Model;
 
 /**
@@ -137,7 +138,10 @@ class User extends Model
      */
     public static function nextlevel($score = 0)
     {
-        $lv = array(1 => 0, 2 => 30, 3 => 100, 4 => 500, 5 => 1000, 6 => 2000, 7 => 3000, 8 => 5000, 9 => 8000, 10 => 10000);
+        $lvarr=Db::name('user_level')->order('level asc')->field('level,score')->select();
+        $lv= array_column((array)$lvarr,'score','level');
+        // dump($lv);die;
+        // $lv = array(1 => 0, 2 => 30, 3 => 100, 4 => 500, 5 => 1000, 6 => 2000, 7 => 3000, 8 => 5000, 9 => 8000, 10 => 10000);
         $level = 1;
         foreach ($lv as $key => $value) {
             if ($score >= $value) {

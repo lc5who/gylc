@@ -139,6 +139,8 @@ class Mobile extends Frontend
                 msg('投资次数已达'.$item['num'].'次',2,url('mobile/index'));
             }
             $bool=true;
+            $userlevel=Db::name('user_level')->where('level',$this->auth->level)->find();
+            $jlrate=$userlevel['rate'];
             Db::startTrans();
             try{
                 $invest=[
@@ -156,17 +158,17 @@ class Mobile extends Frontend
                 $iid=Db::name('invest')->insertGetId($invest);
                 $investlist=[];
                 if($item['typedata']== '每小时返息 到期还本'){
-                    for ($i = 0; $i < $item['day']*24; $i++) {
+                    for ($i = 0; $i < $item['day']; $i++) {
                         $investlist[] = [
                             'uid' => $this->auth->id,
                             'iid' => $iid,
                             'num' => $i + 1,
                             'title' => $item['title'],
-                            'money1' => $item['rate'] * $data['money'] / 100,
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
                             'money2' => 0,
                             'plantime' => time() + ($i + 1) * 60 * 60,
                             'handletime' => 0,
-                            'pay1' => $item['rate'] * $data['money'] / 100,
+                            'pay1' => ($item['rate']+ $jlrate) * $data['money'] / 100,
                             'pay2' => '0.00',
                             'status' => 0
                         ];
@@ -180,15 +182,83 @@ class Mobile extends Frontend
                             'iid' => $iid,
                             'num' => $i + 1,
                             'title' => $item['title'],
-                            'money1' => $item['rate'] * $data['money'] / 100,
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
                             'money2' => 0,
                             'plantime' => time() + ($i + 1) * 60 * 60 * 24,
                             'handletime' => 0,
-                            'pay1' => $item['rate'] * $data['money'] / 100,
+                            'pay1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
                             'pay2' => '0.00',
                             'status' => 0
                         ];
                     }
+                }
+                if ($item['typedata'] == '每日复利 保本保息') {
+                    for ($i = 0; $i < $item['day']; $i++) {
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => $i + 1,
+                            'title' => $item['title'],
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'money2' => 0,
+                            'plantime' => time() + ($i + 1) * 60 * 60 * 24,
+                            'handletime' => 0,
+                            'pay1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    }
+                }
+                if ($item['typedata'] == '每周返息 到期还本') {
+                    for ($i = 0; $i < $item['day']; $i++) {
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => $i + 1,
+                            'title' => $item['title'],
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'money2' => 0,
+                            'plantime' => time() + ($i + 1) * 60 * 60 * 24*7,
+                            'handletime' => 0,
+                            'pay1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    }
+                }
+                if ($item['typedata'] == '每月返息 到期还本') {
+                    for ($i = 0; $i < $item['day']; $i++) {
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => $i + 1,
+                            'title' => $item['title'],
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'money2' => 0,
+                            'plantime' => time() + ($i + 1) * 60 * 60 * 24 * 30,
+                            'handletime' => 0,
+                            'pay1' => ($item['rate'] + $jlrate) * $data['money'] / 100,
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    }
+                }
+                if ($item['typedata'] == '到期还本还息') {
+                    
+                        $investlist[] = [
+                            'uid' => $this->auth->id,
+                            'iid' => $iid,
+                            'num' => 1,
+                            'title' => $item['title'],
+                            'money1' => ($item['rate'] + $jlrate) * $data['money'] / 100*$item['day'],
+                            'money2' => 0,
+                            'plantime' => time() + $item['day'] * 60 * 60 * 24,
+                            'handletime' => 0,
+                            'pay1' => ($item['rate'] + $jlrate) * $data['money'] / 100 * $item['day'],
+                            'pay2' => '0.00',
+                            'status' => 0
+                        ];
+                    
                 }
                 
 
@@ -236,7 +306,7 @@ class Mobile extends Frontend
                 }
                 msg('投资成功!',2,url('user/person'));
             }
-            msg('投资失败');
+            msg('投资失败',2,url('mobile/index'));
         }
         return $this->view->fetch('',compact('item'));
     }
